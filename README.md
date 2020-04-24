@@ -15,4 +15,8 @@ As I've spent a fair amount of time trying manual workarounds to make this work,
 * VMware Horizon View installer client (`VMware-Horizon-Client-5.4.2-15910566.dmg`) is available on the Desktop
 
 # How to use
-> :warning: **This workflow will reboot your computer without further confirmation once it is finished.**: Make sure that you have saved all work, and use at your own risk!
+> :warning: **This workflow will reboot your computer without further confirmation once it is finished.** Make sure that you have saved all work, and use at your own risk!
+
+1. Clone this repo - `git clone https://github.com/bghinkle/reset-horizon-client.git`
+2. Copy the workflow to your local Services folder - `cp -r "reset-horizon-client/Reset VPN Setup.workflow" ~/Library/Services/`
+3. From any window in Finder, select the application menu, then Services, then "Reset VPN Setup" (example below)
